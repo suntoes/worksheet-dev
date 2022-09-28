@@ -1,0 +1,42 @@
+{
+  "name": "suntoes-dev-worksheet",
+  "version": "1.0.0",
+  "description": "Suntoes' worksheet",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write .",
+    "lint": "next lint",
+    "test": "jest --watch",
+    "test:ci": "jest --ci"
+  },
+  "keywords": [],
+  "author": "Mar Santos",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.8",
+    "@chakra-ui/react": "^2.2.8",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "axios": "^0.27.2",
+    "firebase": "^9.10.0",
+    "framer-motion": "^7.2.0",
+    "mathjs": "^11.2.1",
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "three": "^0.143.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "eslint": "^8.22.0",
+    "eslint-config-next": "^12.2.5",
+    "jest": "^29.1.1",
+    "jest-environment-jsdom": "^29.1.1",
+    "prettier": "^2.7.1"
+  }
+}
