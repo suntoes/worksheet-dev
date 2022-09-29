@@ -15,8 +15,8 @@ const ActivityTwo = () => (
           A Simple Calculator
         </Heading>
         <Paragraph>
-          Here I&lsquo;ve tested a calculator that only adds 2 numbers from two
-          separate input. The main 3 key feature I&lsquo;ve selected to test
+          Here I&lsquo;ve tested a calculator that only add 2 numbers from two
+          separate inputs. The main 3 key feature I&lsquo;ve selected to test
           are: Rendition of the component, Input update onChange, and Output sum
           result.
         </Paragraph>

@@ -15,14 +15,14 @@ const OpenEnded = () => (
           about what Github is. How would you describe Github?
         </Heading>
         <Paragraph>
-          Github is like a social media platform &#40;ex. Facebook&#41;
+          Github is like a social media platform &#40;e.g. Facebook&#41;
           programmers where there are posts, groups, organizations and even
           marketplace too that is all about programming.
         </Paragraph>
         <Paragraph>
-          A cool feature to it is that not only users can showoff their
-          creations as post there, but anyone can contribute to the project
-          creators showoff publicly.
+          A cool feature to it is that not only users can show off their
+          creations as post there, but also anyone can contribute to the project
+          creators share publicly.
         </Paragraph>
       </Section>
       <Section delay={0.3}>
@@ -32,14 +32,14 @@ const OpenEnded = () => (
         </Heading>
         <Paragraph>
           Stack by Google. It&lsquo;s an app that helps user organize their
-          documents such as receipts, bills, ids and etc. A cool feature of it
+          documents such as receipts, bills, ids, etc. A cool feature of it
           too is that it can scan those documents and turn it into a
           soft-copy-like document with AI, live.
         </Paragraph>
         <Paragraph>
           The simplicity and functionality of this app is what I fancy the most.
-          Not only that, but it also has a touch of AI-automation within the
-          app. Not too much, not less, just the right amount.
+          Furthermore, it also has a touch of AI-automation within the app. Not 
+		  too much, not less, just the right amount.
         </Paragraph>
       </Section>
       <Section delay={0.5}>
