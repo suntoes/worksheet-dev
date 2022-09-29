@@ -45,7 +45,7 @@ const ActivityOne = () => {
       maxWidth="container.md"
       height="full"
       position="absolute"
-      transform={`translateX(${9999}px)`}
+      transform={`translateX(${-9999}px)`}
     >
       <Box
         display="flex"
@@ -57,14 +57,14 @@ const ActivityOne = () => {
           cursor="pointer"
           icon={<ArrowLeftIcon />}
           onClick={() => paginate(-1)}
-          transform={`translateX(${-9999 - offsetX}px)`}
+          transform={`translateX(${+9999 + offsetX}px)`}
           disabled={subActPage === 0}
         />
         <IconButton
           cursor="pointer"
           icon={<ArrowRightIcon />}
           onClick={() => paginate(1)}
-          transform={`translateX(${-9999 - offsetX}px)`}
+          transform={`translateX(${+9999 + offsetX}px)`}
           disabled={subActPage === subActs.length - 1}
         />
       </Box>
@@ -81,7 +81,7 @@ const ActivityOne = () => {
           boxSize="100%"
           alignItems="center"
           justifyContent="center"
-          transform="translateX(9999px)"
+          transform="translateX(-9999px)"
         >
           <ArrowNav offsetX={9999} />
         </Box>
